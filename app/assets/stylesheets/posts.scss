@@ -1,3 +1,64 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 130px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+header {
+  width: 100%;
+  background-color: #2c3e50;
+  height: 50px;
+  color: #fff;
+  // text-align: center;
+  padding: 10px 0 10px 0;
+  margin-top: auto;
+
+}
+
+footer {
+  width: 100%;
+  background-color:#2c3e50;
+  padding: 10px 0 10px 0;
+  color: white;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+table.index {
+  margin: 0 auto;
+  position:relative;
+}
+
+table.index td {
+  border-width: 0px 0px 1px 0px;
+  border-color: #2c3e50;
+  border-style: solid;
+  padding: 1em;
+}
+
+#post_content {
+  width: 500px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.index_button {
+  width: 40px;
+  text-align: right;
+}
